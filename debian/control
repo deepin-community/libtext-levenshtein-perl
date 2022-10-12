@@ -1,0 +1,26 @@
+Source: libtext-levenshtein-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libunicode-collate-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-levenshtein-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-levenshtein-perl.git
+Homepage: https://metacpan.org/release/Text-Levenshtein
+Rules-Requires-Root: no
+
+Package: libtext-levenshtein-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libunicode-collate-perl
+Description: implementation of the Levenshtein edit distance
+ Text::Levenshtein implements the Levenshtein edit distance. The Levenshtein
+ edit distance is a measure of the degree of proximity between two strings.
+ This distance is the number of substitutions, deletions or insertions
+ ("edits") needed to transform one string into the other one (and vice versa).
+ When two strings have distance 0, they are the same.

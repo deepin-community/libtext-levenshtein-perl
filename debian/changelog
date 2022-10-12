@@ -1,0 +1,137 @@
+libtext-levenshtein-perl (0.15-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>  Thu, 19 May 2022 10:26:48 +0800
+
+libtext-levenshtein-perl (0.15-1) unstable; urgency=medium
+
+  * Import upstream version 0.15.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 18 Apr 2022 18:15:48 +0200
+
+libtext-levenshtein-perl (0.14-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Ryan Niebur from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-
+    Browse.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ gregor herrmann ]
+  * Import upstream version 0.14.
+  * Update years of packaging copyright.
+  * Set Rules-Requires-Root: no.
+  * Drop unneeded version constraints and alternatives from (build)
+    dependencies.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Bump debhelper-compat to 13.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Aug 2021 22:27:24 +0200
+
+libtext-levenshtein-perl (0.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.13
+  * Bump debhelper compatibility level to 9
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Wed, 02 Sep 2015 23:15:18 -0300
+
+libtext-levenshtein-perl (0.12-1) unstable; urgency=medium
+
+  * Import upstream version 0.12.
+  * Update years of packaging copyright.
+  * Add (build) dependency on Unicode::Collate 1.04.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 10 May 2015 18:37:46 +0200
+
+libtext-levenshtein-perl (0.11-1) unstable; urgency=medium
+
+  * Import upstream version 0.11
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 26 Oct 2014 13:15:37 +0100
+
+libtext-levenshtein-perl (0.10-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.10
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 25 Oct 2014 15:39:07 +0200
+
+libtext-levenshtein-perl (0.09-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  * New upstream release.
+  * Drop patch fix-manpage, merged upstream.
+  * Update debian/copyright.
+    New Upstream-Contact, new upstream copyright holders, extended years of
+    packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 10 May 2014 16:08:28 +0200
+
+libtext-levenshtein-perl (0.06~01-2) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+  [ Ryan Niebur ]
+  * Email change: Ryan Niebur -> ryan@debian.org
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Dmitry Shachnev ]
+  * Fixed lintian warnings (Closes: #696639):
+    - ancient-standards-version: bumped to 3.9.4.
+    - debian-rules-missing-recommended-target: added build-arch and
+      build-indep targets.
+    - wiki-copyright-format-uri: updated debian/copyright to the latest
+      format.
+  * Removed dead link from package description (Closes: #695754).
+
+  [ gregor herrmann ]
+  * debian/copyright: update license stanzas.
+  * Switch to "3.0 (quilt)" source format. Drop quilt build dependency.
+    Use shortform dh(1) in debian/rules.
+  * Use debhelper 8.
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 24 Dec 2012 22:22:51 +0100
+
+libtext-levenshtein-perl (0.06~01-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #512267)
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Mon, 19 Jan 2009 12:52:39 -0800
